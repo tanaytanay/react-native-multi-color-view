@@ -1,0 +1,42 @@
+{
+  "name": "react-native-multi-color-view",
+  "version": "1.0.1",
+  "description": "A React Native component for creating multi-color gradient views",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "gradient",
+    "multi-color",
+    "view",
+    "typescript"
+  ],
+  "author": "tanaytanay",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "react-native-svg": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaytanay/react-native-multi-color-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanaytanay/react-native-multi-color-view/issues"
+  },
+  "homepage": "https://github.com/tanaytanay/react-native-multi-color-view#readme"
+} 
