@@ -13,27 +13,18 @@ A React Native component for creating beautiful multi-color gradient views.
 
 - React Native >= 0.60.0
 - React >= 16.8.0
+- react-native-svg >= 9.0.0
 
 ## Installation
 
 ```bash
-npm install react-native-multi-color-view
+npm install react-native-multi-color-view react-native-svg
 # or
-yarn add react-native-multi-color-view
+yarn add react-native-multi-color-view react-native-svg
+
+# For iOS, run:
+cd ios && pod install
 ```
-
-### About react-native-svg
-
-This package includes `react-native-svg` as a dependency, but it's set up to work in two ways:
-
-1. If you already have `react-native-svg` installed in your project:
-   - The package will use your existing installation
-   - No duplicate installation will occur
-   - Your version will be used (must be >= 9.0.0)
-
-2. If you don't have `react-native-svg` installed:
-   - The package will automatically install it for you
-   - You don't need to do anything extra
 
 ## Usage
 

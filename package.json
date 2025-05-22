@@ -1,6 +1,6 @@
 {
   "name": "react-native-multi-color-view",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "A React Native component for creating multi-color gradient views",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,14 +25,6 @@
     "react": ">=16.8.0",
     "react-native": ">=0.60.0",
     "react-native-svg": ">=9.0.0"
-  },
-  "peerDependenciesMeta": {
-    "react-native-svg": {
-      "optional": true
-    }
-  },
-  "dependencies": {
-    "react-native-svg": "^14.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
