@@ -1,7 +1,7 @@
 import React from 'react';
 import { ViewStyle, ViewProps, StyleProp } from 'react-native';
 interface GradientViewProps extends ViewProps {
-    colors: string[];
+    colors?: string[];
     start?: {
         x: number;
         y: number;

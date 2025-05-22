@@ -1,6 +1,6 @@
 {
   "name": "react-native-multi-color-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native component for creating multi-color gradient views",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

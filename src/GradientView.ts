@@ -3,7 +3,7 @@ import { View, StyleSheet, ViewStyle, ViewProps, StyleProp } from 'react-native'
 import Svg, { Defs, LinearGradient, Stop, Rect } from 'react-native-svg';
 
 interface GradientViewProps extends ViewProps {
-  colors: string[];
+  colors?: string[];
   start?: { x: number; y: number };
   end?: { x: number; y: number };
   style?: StyleProp<ViewStyle>;
