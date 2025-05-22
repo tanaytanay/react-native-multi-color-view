@@ -1,5 +1,9 @@
 # react-native-multi-color-view
 
+[![npm version](https://img.shields.io/npm/v/react-native-multi-color-view.svg)](https://www.npmjs.com/package/react-native-multi-color-view)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-multi-color-view.svg)](https://www.npmjs.com/package/react-native-multi-color-view)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A React Native component for creating beautiful multi-color gradient views.
 
 ## Requirements
@@ -61,6 +65,10 @@ import { GradientView } from 'react-native-multi-color-view';
 | style | ViewStyle | No | Style for the gradient view |
 | start | { x: number, y: number } | No | Starting point of the gradient (0-1) |
 | end | { x: number, y: number } | No | Ending point of the gradient (0-1) |
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
