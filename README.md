@@ -3,6 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/react-native-multi-color-view.svg)](https://www.npmjs.com/package/react-native-multi-color-view)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-multi-color-view.svg)](https://www.npmjs.com/package/react-native-multi-color-view)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Platform - iOS](https://img.shields.io/badge/platform-iOS-blue.svg)](https://www.apple.com/ios/)
+[![Platform - Android](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com/)
+[![Platform - macOS](https://img.shields.io/badge/platform-macOS-black.svg)](https://www.apple.com/macos/)
 
 A React Native component for creating beautiful multi-color gradient views.
 
@@ -59,12 +62,12 @@ import { GradientView } from 'react-native-multi-color-view';
 
 ## Props
 
-| Prop | Type | Required | Description |
-|------|------|----------|-------------|
-| colors | string[] | No | Array of color values (hex, rgb, rgba). If not provided, renders as a regular View |
-| style | ViewStyle | No | Style for the gradient view |
-| start | { x: number, y: number } | No | Starting point of the gradient (0-1) |
-| end | { x: number, y: number } | No | Ending point of the gradient (0-1) |
+| Prop | Type | Description |
+|------|------|-------------|
+| colors | string[] | Array of color values (hex, rgb, rgba). If not provided, renders as a regular View |
+| style | ViewStyle | Style for the gradient view |
+| start | { x: number, y: number } | Starting point of the gradient (0-1) |
+| end | { x: number, y: number } | Ending point of the gradient (0-1) |
 
 ## Contributing
 
